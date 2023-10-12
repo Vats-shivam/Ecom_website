@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+root{
+  --primary:#B88E2F;
+  --secondary:#FFF3E3;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  /* background-color: var(--secondary); */
+  font-family: "Poppins",sans-serif;
+}
+h1{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 65px;
+  color: #B88E2F;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+h3{
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #666;
+}
+picture h2{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+header{
+  text-align: center;
+}
+nav a{
+  text-decoration: none;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: "Montserrat";
+  color: black;
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.pages{
+  width:30%;
+}
+.options{
+  width:15%;
+}
+nav{
+  width:80%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section{
+  height:80vh;
+  background-image: url("/images/scandinavian-interior-mockup-wall-decal-background\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom 29% left 15%;
+  position: relative;
+}
+.hero-content{
+  padding: 4rem 2rem;
+  background-color: #FFF3E3;
+  height:50%;
+  width:35%;
+  z-index: 1;
+  position: absolute;
+  right:13.5%;
+  bottom: 20%;
+  border-radius: 5%;
+  box-shadow: 0 3px 5px black;
+}
+.hero-section .hero-content p{
+  padding: 1rem 0;
+}
+.action-btn{
+  background-color: #B88E2F;
+  color: white;
+  /* margin-top:3rem; */
+  height: 5rem;
+  width: 14rem;
+  box-shadow: 0 2px 0 rgb(92, 91, 91);
+  border: none;
+  position: relative;
+  top:15px;
+}
+.prd-range{
+  margin: 5% 10%;
+  text-align: center;
+}
+.prd-range picture{
+  margin: 2rem 0;
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+}
+.prd-section{
+  text-align: center;
+  margin:5% 10%;
+}
+.show-case{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  /* grid-template-rows: ; */
+  justify-content: space-between;
+}
+.show-case .prd-card{
+  width:18.5rem;
+  height:25rem;
+  text-align: start;
+  margin: 1.5rem;
+  border: solid 2px black;
+}
+.show-case .prd-card img{
+ width:100%;
+ height: 75%;
+}
+.show-case .prd-card h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.show-case .prd-card p{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.show-case .prd-card span{
+  font-weight:600;
+  font-size:1.2rem;
+}
+.btn-load-more{
+  color: #B88E2F;
+  border: solid 1px #B88E2F;
+  width:14rem;
+  height:3rem;
+  font-size: 1rem;
+  font-weight:600;
+  background-color: transparent;
+  margin: 2.5rem;
+}
+.insp-section{
+  height:70vh;
+  background-color: #FFF3E3;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.insp-content-left{
+  width: 27rem;
+  height: 15rem;
+  margin-left:10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.insp-content-left h2{
+  font-size:2.5rem;
+  line-height: 120%;
+}
+.insp-content-left p{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.explore-btn{
+  width: 14rem;
+  height: 3rem;
+  background-color: #B88E2F;
+  color: white;
+  font-size: 1rem;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.prd-setups{
+  margin-top: 10%;
+  height:70vh;
+  text-align: center;
+  background-image: url(/images/setups.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: ; */
+}
+.prd-setup-title{
+  position: relative;
+  top:-5rem;
+}
+.prd-setup-title h4{
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: #616161;
+}
+.prd-setup-title h2{
+  font-size:2.5rem;
+  font-weight: 700;
+  line-height: 120%;
+  color:#3A3A3A;
+}
+.links h2{
+  font-size:1rem;
+  font-weight:600;
+  color: #9f9f9f;
+}
+.help-sec h2{
+  font-size:1rem;
+  font-weight:600;
+  color: #9f9f9f;
+}
+.news-letter h2{
+  font-size:1rem;
+  font-weight:600;
+  color: #9f9f9f;
+}
+footer{
+  margin-top:1.5rem;
+  height: 30vh;
+  padding: 5rem 10rem;
+  display: flex;
+  box-shadow: 0px -0.5px 3px black;
+}
+footer div {
+  margin-right: 10rem;
+}
+footer div:last-child {
+  margin-right: 5rem;
+}
+footer .desc .address{
+  margin-top: 4rem;
+}
+.foot-opt{
+  margin-top: 4rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.foot-opt li{
+  padding-bottom: 2rem;
+}
+footer .news-letter input{
+  margin-top: 4rem;
+  border:none;
+  border-bottom: 0.5px solid black;
+}
+
+footer .news-letter button{
+  font-weight:500;
+  font-size: 0.85rem;
+  border:none;
+  background-color: transparent;
+  border-bottom: 0.5px solid black;
+}
+.cpy-right{
+  padding:0 10rem;
+  font-weight:400;
+}
